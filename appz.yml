@@ -8,8 +8,8 @@ build:
     env: DEV
     build_file: none
     args:
-      BUILD_DIR: /
-      CONTENTS_PATH: /
+      BUILD_DIR: /app
+      CONTENTS_PATH: /app
     output_files: output/*.zip
     image_template: yarn-1.22
     
@@ -20,5 +20,5 @@ deploy:
     - 3000
     
 properties:
-   WORK_DIR: /
+   WORK_DIR: /app
    revision: 4
