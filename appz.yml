@@ -21,4 +21,4 @@ deploy:
     
 properties:
    WORK_DIR: /app
-   revision: 9
+   revision: 10
